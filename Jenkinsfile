@@ -2,7 +2,7 @@ pipeline {
     agent any
     
     environment {
-        DOCKER_REGISTRY = 'your-dockerhub-username'
+        DOCKER_REGISTRY = 'quan2504'
         APP_NAME = 'team-app'
         TEST_SERVER = 'test-server-ip'
         PROD_SERVER = 'prod-server-ip'
