@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   app:
-    image: your-dockerhub-username/team-app:latest
+    image: quan2504/team-app:latest
     ports:
       - "5000:5000"
     environment:
